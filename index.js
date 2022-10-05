@@ -14,7 +14,7 @@ app.use(express.json({ limit: "10mb" }));
 
 app.get("/", (req, res) => {
 	console.log(req.ip);
-	res.send({ data: "Welcome" });
+	res.send({ data: "I am the Best!" });
 });
 
 // INITIALIZE EXPRESS PORT AND LISTEN
